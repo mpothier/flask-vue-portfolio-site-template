@@ -22,6 +22,8 @@ Entry points for `yarn`/`npm` and `pipenv` need to be placed at the root folder 
 │   ├── app                     # Flask app
 │   │   ├── api.py              # add custom endpoints; update URL for CORS
 │   ├── run.py                  # called by gunicorn to run app
+├── Pipfile.lock                # lists dependencies for Python virtual environment
+├── yarn.lock                   # lists Node dependencies
 ├── Procfile                    # Declare process for Heroku dyno
 ```
 
