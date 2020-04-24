@@ -1,0 +1,18 @@
+{
+    "title": "Sample Project One",
+    "body": [
+        {
+            "content_type": "image",
+            "content": "sample-image.jpg",
+            "caption": "Photo by Hal Gatewood on Unsplash"
+        },
+        {
+            "content_type": "text",
+            "content": "Minim velit cillum non reprehenderit veniam fugiat deserunt irure magna excepteur aliqua. Id velit veniam ullamco excepteur magna commodo est culpa occaecat commodo id enim incididunt. Officia sit dolore ea id. Quis laborum laboris quis id ut sit laboris proident velit est."
+        },
+        {
+            "content_type": "text",
+            "content": "Est nulla adipisicing ex duis voluptate. Sunt aliqua amet culpa officia officia. Nisi dolore cillum cupidatat irure est ad nulla sunt excepteur nisi magna consectetur."
+        }
+    ]
+}
