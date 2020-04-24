@@ -8,6 +8,23 @@ Includes custom SCSS styling based on **Bootstrap** to enable responsive/mobile-
 
 See my personal portfolio (http://www.markpothier.net) for a working demo.
 
+## Folder Structure
+
+Entry points for `yarn`/`npm` and `pipenv` need to be placed at the root folder for compatibility with Heroku's Node and Python buildpacks. The Flask server is separated out into a designated folder. Highlights include:
+```
+├── public                      # static content, including SPA entry point (index)
+│   ├── work_content            # templated content for portfolio pages
+│   │   ├── img
+|   |   ├── project.json
+│   ├── index.html
+├── src                         # main Vue front end source
+├── server                      # server entry point
+│   ├── app                     # Flask app
+│   │   ├── api.py              # add custom endpoints; update URL for CORS
+│   ├── run.py                  # called by gunicorn to run app
+├── Procfile                    # Declare process for Heroku dyno
+```
+
 ## **Vue Client (front end) setup**
 Navigate to root directory, then install Node dependencies:
 ```
